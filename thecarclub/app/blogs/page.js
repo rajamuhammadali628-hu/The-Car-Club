@@ -25,6 +25,74 @@ const  Blogs= () => {
           />
           <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
         </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Dodge.jpg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Lamborgini.jpg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Supra.jpg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+      </div>
+      <br />
+      <div className={styles.blogmaincontent}>
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Shelby.png"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Bugatti.jpeg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/G-wagon.webp"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
       </div>
     </>
   )
