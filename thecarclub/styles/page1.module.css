@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar .navlist{
+    width: 50%;   
+    float: right;
+}
+
+.navbar .navlist ul{
+    display: flex;
+    padding: 15px;
+    justify-content: right;
+    gap: 20px;
+}
+
+.navbar .navpara{
+    width: 50%;   
+    display: flex;
+    float: left;
+}
+
+.navbar .navpara p{
+    padding: 15px;
+    font-weight: bold;
+    justify-content: left;
+}
+
+.maincontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.maincontainer .subcontainer{
+    width: 50%;
+    text-align: center;
+}
+
+.maincontainer .subcontainer h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.maincontainer .subcontainer h2{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.heroImage {
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.blogarea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroImage1 {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.5s;
+}
+
+.heroImage1:hover {
+  transform: translateZ(50px);
+}
+
+.blogarea .blogareain{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.blogarea .blogareain .blogimage{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    perspective: 1000px;
+}
+
+.blogbtn{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.blogbtn .morebtn{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.blogbtn .morebtn .btn {
+  width: 35%;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(118, 118, 118), black);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 3px rgba(245, 245, 245, 0.317);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.blogbtn .morebtn .btn:hover {
+  transform: translateZ(50px);
+  box-shadow: 0px 0px 5px 5px rgba(245, 245, 245, 0.317);
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutmaincontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.aboutmaincontainer .aboutsubcontainer{
+    width: 50%;
+    text-align: center;
+}
+
+.aboutmaincontainer .aboutsubcontainer h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutmaincontainer .aboutsubcontainer h2{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.aboutinfo1{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+}
+
+.aboutinfo1 h2{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.aboutend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.aboutend p{
+    width: 50%;
+    text-align: justify;
+}
