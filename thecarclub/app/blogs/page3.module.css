@@ -1,0 +1,41 @@
+.blogcontent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.blogcontent .blogsubcontent{
+    width: 50%;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.blogcontent .blogsubcontent h1{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blogcontent .blogsubcontent h2{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.blogmainconent{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+
+.blogcontentin{
+    width: 21%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}

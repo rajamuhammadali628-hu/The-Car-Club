@@ -1,9 +1,31 @@
 import React from 'react'
+import styles from "./page3.module.css";
+import Image from 'next/image';
 
 const  Blogs= () => {
   return (
     <>
-      <h1>This is my Blogs page</h1>
+      <br />
+      <br />
+      <div className={styles.blogcontent}>
+        <div className={styles.blogsubcontent}>
+          <h1>Welcome to the Blogs Area</h1>
+          <h2>Here you can see information about the blogs.</h2>
+        </div>
+      </div>
+      <br />
+      <div className={styles.blogmaincontent}>
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/BMW.jpg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
+      </div>
     </>
   )
 }
