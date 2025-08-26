@@ -93,6 +93,17 @@ const  Blogs= () => {
           />
           <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
         </div>
+        <br />
+        <div className={styles.blogcontentin}>
+            <Image
+            src="/Mustang.jpeg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+        </div>
       </div>
     </>
   )
