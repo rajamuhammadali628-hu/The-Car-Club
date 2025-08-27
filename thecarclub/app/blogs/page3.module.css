@@ -1,0 +1,132 @@
+.heading{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blogcontent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.blogcontent .blogsubcontent{
+    width: 50%;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.blogcontent .blogsubcontent h1{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.blogcontent .blogsubcontent h2{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.blogmaincontent{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 950px;
+}
+
+.blogmaincontent .blogImage1{
+    background: url('/BMW-sports.jpg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage2{
+    background: url('/Dodge.jpg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage3{
+    background: url('/Gtr.jpeg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage4{
+    background: url('/Supra1.jpg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage5{
+    background: url('/Porsche.avif');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage6{
+    background: url('/G-wagon.webp');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage7{
+    background: url('/Bentley.jpg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogmaincontent .blogImage8{
+    background: url('/RR.jpeg');
+    width: 300px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
