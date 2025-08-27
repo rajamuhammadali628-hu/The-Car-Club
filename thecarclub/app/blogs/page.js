@@ -15,86 +15,23 @@ const  Blogs= () => {
       </div>
       <br />
       <div className={styles.blogmaincontent}>
-        <div className={styles.blogcontentin}>
+      <div className={styles.blogarea}>
+        <h1>Sports Section</h1>
+          <div className={styles.blogmaincontentin}>
+          <br />
+          <div className={styles.blogcontentin}>
             <Image
-            src="/BMW.jpg"
+            src="/BMW-sports.jpg"
             alt="Eyes of BMW"
             width={300}
             height={150}
             className={styles.heroImage}
           />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+          <p>BMW M5</p>
+          <button className={styles.btn}>Click to see more</button>
         </div>
-        <br />
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/Dodge.jpg"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-        <br />
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/Lamborgini.jpg"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-        <br />
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/Supra.jpg"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-      </div>
-      <br />
-      <div className={styles.blogmaincontent}>
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/Shelby.png"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-        <br />
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/Bugatti.jpeg"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-        <br />
-        <div className={styles.blogcontentin}>
-            <Image
-            src="/G-wagon.webp"
-            alt="Eyes of BMW"
-            width={300}
-            height={150}
-            className={styles.heroImage}
-          />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
-        </div>
-        <br />
-        <div className={styles.blogcontentin}>
+          <br />
+          <div className={styles.blogcontentin}>
             <Image
             src="/Mustang.jpeg"
             alt="Eyes of BMW"
@@ -102,9 +39,44 @@ const  Blogs= () => {
             height={150}
             className={styles.heroImage}
           />
-          <p>This is a blog. This blog is for information purpose. Click the button to see more blogs.</p>
+          <p>Mustang Cobra Dark Hourse</p>
+          <button className={styles.btn}>Click to see more</button>
         </div>
       </div>
+      </div>
+
+      <div className={styles.blogarea}>
+        <h1>Sports Section</h1>
+          <div className={styles.blogmaincontentin}>
+          <br />
+          <div className={styles.blogcontentin}>
+            <Image
+            src="/Bugatti.jpeg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>Bugatti Chiron</p>
+          <button className={styles.btn}>Click to see more</button>
+        </div>
+          <br />
+          <div className={styles.blogcontentin}>
+            <Image
+            src="/Dodge.jpg"
+            alt="Eyes of BMW"
+            width={300}
+            height={150}
+            className={styles.heroImage}
+          />
+          <p>Dodge Challenger</p>
+          <button className={styles.btn}>Click to see more</button>
+        </div>
+      </div>
+      </div>
+      
+     
+    </div>
     </>
   )
 }
