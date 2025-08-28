@@ -1,5 +1,6 @@
 import styles from "../styles/page1.module.css";
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -79,7 +80,7 @@ export default function Home() {
         <br />
         <div className={styles.blogbtn}>
             <div className={styles.morebtn}>
-              <div className={styles.btn}>Click to see more blogs</div>
+              <div className={styles.btn}><Link href="/blogs">Click to see more blogs</Link></div>
             </div>
         </div>
         <br />

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import Head from 'next/head';
 import Image from 'next/image'
 import styles from "../styles/page1.module.css";
@@ -31,25 +32,7 @@ export default function RootLayout({ children }) {
       </head>
       
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className={styles.navbar}>
-          <div className={styles.navlist}>
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Blogs</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div className={styles.navpara}>
-               <Image
-                src="/Cobra logo.jpg"
-                alt="Logo"
-                width={70}
-                height={50}
-              />
-              <p>The Car Club</p>
-          </div>
-        </div>
+        <Header />
         {children}
         <Footer />
       </body>
