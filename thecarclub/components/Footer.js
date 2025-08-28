@@ -82,7 +82,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} The Car Club. All rights reserved.
+              © {new Date().getFullYear()} The Car Club. All rights reserved by RMA.
             </p>
           </div>
         </div>
