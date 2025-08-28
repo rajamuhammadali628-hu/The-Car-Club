@@ -18,26 +18,49 @@ const  Blogs= () => {
       <br />
       <br />
       <div className={styles.blogmaincontent}>
-        <div className={styles.blogImage1}></div>
-        <div className={styles.blogImage2}></div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('BMW-sports.jpg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('Supra1.jpg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('Porsche.avif')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
     </div>
       <br />
       <div className={styles.blogmaincontent}>
-        <div className={styles.blogImage3}></div>
-        <div className={styles.blogImage4}></div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('Dodge.jpg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('Gtr.jpeg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
       </div>
       <br />
       <h3 className={styles.heading}>Luxary Cars</h3>
       <br />
       <br />
     <div className={styles.blogmaincontent}>
-        <div className={styles.blogImage5}></div>
-        <div className={styles.blogImage6}></div>
+        
+        <div className={styles.blogImage} style={{backgroundImage: "url('Bentley.jpg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('RR.jpeg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('G-wagon.webp')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
     </div>
       <br />
       <div className={styles.blogmaincontent}>
-        <div className={styles.blogImage7}></div>
-        <div className={styles.blogImage8}></div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('RangeRover.jpeg')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
+        <div className={styles.blogImage} style={{backgroundImage: "url('Volvo.webp')"}}>
+          <button className={styles.btn}>Click to see</button>
+        </div>
       </div>
       <br />
     </>

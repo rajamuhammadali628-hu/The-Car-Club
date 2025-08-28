@@ -43,8 +43,7 @@
     max-width: 950px;
 }
 
-.blogmaincontent .blogImage1{
-    background: url('/BMW-sports.jpg');
+.blogmaincontent .blogImage{
     width: 300px;
     height: 150px;
     border: none;
@@ -52,81 +51,24 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
 }
 
-.blogmaincontent .blogImage2{
-    background: url('/Dodge.jpg');
-    width: 300px;
-    height: 150px;
-    border: none;
+.blogmaincontent .blogImage .btn{
+    width: 50%;
+    padding: 8px;
+    border: 1 px solid black;
     border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.311);
+    color: rgba(255, 255, 255, 0.491);
+    transition: all 0.5s ease;
 }
 
-.blogmaincontent .blogImage3{
-    background: url('/Gtr.jpeg');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blogmaincontent .blogImage4{
-    background: url('/Supra1.jpg');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blogmaincontent .blogImage5{
-    background: url('/Porsche.avif');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blogmaincontent .blogImage6{
-    background: url('/G-wagon.webp');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blogmaincontent .blogImage7{
-    background: url('/Bentley.jpg');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blogmaincontent .blogImage8{
-    background: url('/RR.jpeg');
-    width: 300px;
-    height: 150px;
-    border: none;
-    border-radius: 5px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.blogmaincontent .blogImage .btn:hover{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.813) ;
 }
